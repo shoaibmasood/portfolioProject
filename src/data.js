@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Shoe Store App",
+    subtitle: "React Router,Material UI & Css Media Queries",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "In this Webapp a user can select products by clicking on Productlist, and also by clicking on one of NavLinks provided in Navbar and purchase it by adding it to the cart. This project is built by using create React App, Material Ui,React Router V6,Hooks. Its a fully responsive design that can be view on any size of screens, with the help of CSS media queries and Material Ui breakpoints.",
     image: "./ShoeStore.gif",
-    link: "https://reactbootcamp.com",
+    link: "http://shoaibmasood-shoestore-reactapp.surge.sh/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Linkedin Clone",
+    subtitle: "React,ReduxToolKit & Firebase",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "In this Clone a user can registerd new account by entering required information on login page, and user can enter new post by typing input field in the feed sections. This project is built by using create React App with Redux tool kit, Pure CSS with BEM naming Conventions, For Authentication Google Firebase is used.For storing user's posts data googles Firestore Database is implemented.React Hooks.",
+    image: "./linkedinclone.gif",
+    link: "http://shoaibmasood-linkedin-clone.surge.sh/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "GitHub Finder",
+    subtitle: "React Hooks,Axios & Netlify",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "A git-hub finder (react based) app, that's Interact with git-hub API, to search users and display their profile data. This project is built by using React, Context-API, React Hooks(UseState, UseReducer), MaterializeCss, Axios, React Router and Es6 Features like Async await. Netlify is used for hosting this app.",
+    image: "./githubfinder.gif",
+    link: "https://githubfinder-shoaib-masood.netlify.app/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Expense Tracker",
+    subtitle: "React Context-API & Pure Css",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "This web-app helps the user to track their income and expenses on a daily basis with separate individual columns to easily track their transactions.This project is built by using React Context API and React hooks( useState, useContext, useReducer) with pure CSS and deployed using surge with github actions.",
+    image: "./expensetracker.gif",
+    link: "http://shoaibmasood-expense-tracker.surge.sh/",
   },
 ];
 

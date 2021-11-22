@@ -73,7 +73,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Let's get to the next level together.Feel free to ask any query.
+            Let's get to the next level together,Feel free to ask any query
             Whether you have a question or just want to say hi, I’ll try my best
             to get back to you!
           </p>

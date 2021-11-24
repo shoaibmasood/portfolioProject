@@ -8,6 +8,11 @@ export const headerImageAnimation = {
   show: { scale: 1, opacity: 1 },
 };
 
+export const headerWaveAnimation = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1 },
+};
+
 export const navbarAnimation = {
   hidden: { y: -100 },
   show: { y: 0 },

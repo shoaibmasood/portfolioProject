@@ -17,3 +17,15 @@ export const navbarAnimation = {
   hidden: { y: -100 },
   show: { y: 0 },
 };
+
+export const cardAnimations = (idx) => {
+  return {
+    hidden: { opacity: 0, translateX: idx % 2 === 0 ? -100 : +100 },
+    show: { opacity: 1, translateX: 0 },
+  };
+};
+
+export const projectTextAnimation = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1 },
+};

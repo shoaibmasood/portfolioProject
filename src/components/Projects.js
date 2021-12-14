@@ -3,8 +3,10 @@ import React from 'react';
 import { projects } from '../data';
 import { motion } from 'framer-motion';
 import { cardAnimations, projectTextAnimation } from '../utils/Animations';
+import { useScroll } from '../utils/useScroll';
 
 export default function Projects() {
+  const [elementref, controls] = useScroll();
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -22,14 +24,15 @@ export default function Projects() {
             technologies like React, GitHub Actions, Surge and Material UI.
           </p>
         </motion.div>
-        <div className="flex flex-wrap -m-4 ">
+        <div className="flex flex-wrap -m-4 " ref={elementref}>
           {projects.map((project, idx) => (
             <motion.a
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4 "
               variants={cardAnimations(idx)}
-              transition={{ duration: 2, delay: 0.5 }}
+              animate={controls}
+              transition={{ duration: 1, delay: 0.5 }}
             >
               <div className="flex relative ">
                 <img

@@ -29,3 +29,13 @@ export const projectTextAnimation = {
   hidden: { opacity: 0 },
   show: { opacity: 1 },
 };
+
+export const skillsIconAnimation = {
+  hidden: { rotate: 0, opacity: 0 },
+  show: { rotate: 360, opacity: 1 },
+};
+
+export const skillsTextAnimation = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1 },
+};

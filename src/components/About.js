@@ -7,13 +7,11 @@ import {
   headerWaveAnimation,
 } from '../utils/Animations';
 import '../index.css';
-// import { useScroll } from '../utils/useScroll';
 
 export default function About() {
-  // const [elementref, controls] = useScroll();
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-10 py-40 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className=" flex items-end title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             <Typewriter
@@ -29,7 +27,7 @@ export default function About() {
             <motion.div
               className="about-wave"
               variants={headerWaveAnimation}
-              transition={{ delay: 8 }}
+              transition={{ delay: 7 }}
             >
               👋
             </motion.div>
@@ -37,7 +35,7 @@ export default function About() {
           <motion.p
             className="mb-8 leading-relaxed"
             variants={headerAnimation}
-            transition={{ delay: 7.5, type: 'tween', duration: 0.5 }}
+            transition={{ delay: 5, type: 'tween', duration: 0.5 }}
           >
             Producing high quality responsive websites and love to build amazing
             apps & Products.
@@ -45,8 +43,7 @@ export default function About() {
           <motion.div
             className="flex justify-center"
             variants={headerAnimation}
-            // animate={controls}
-            transition={{ delay: 7.5, type: 'tween', duration: 1 }}
+            transition={{ delay: 5, type: 'tween', duration: 1 }}
           >
             <a
               href="#contact"

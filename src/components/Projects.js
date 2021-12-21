@@ -28,6 +28,7 @@ export default function Projects() {
           {projects.map((project, idx) => (
             <motion.a
               href={project.link}
+              target="_blank"
               key={project.image}
               className="sm:w-1/2 w-100 p-4 "
               variants={cardAnimations(idx)}
